@@ -1,0 +1,20 @@
+{
+  "name": "traversa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "jalankan": "npx tailwindcss -i src/directive.css -o src/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "@preline/dropdown": "^2.3.0",
+    "preline": "^2.3.0"
+  }
+}

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        font-family: 'Inter';
+    }
+    h1{font-family: 'Poppins';}
+    /* hero */
+    .hero{
+        background-image: url('../public/Background-home.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 670px;
+    }
+    .heroo{
+        height: 50px;
+        background-image: url('../public/fu.jpg');
+        background-size: 100%;
+    }
+    @media only screen and (max-width:768px){
+        .hero{
+            max-height: 400px;
+        }
+    }
+    @media only screen and (max-width:450px){
+        .hero{
+            max-height: 230px;
+        }
+        .item-hero{
+            margin-top: 15%;
+        }
+    }
+}
