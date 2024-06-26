@@ -32,7 +32,13 @@
             </div>
         </div>
         <!-- bawah -->
-        <div class="fixed bottom-0 right-0 left-0 lg:hidden bg-white z-10" x-show="open">
+        <div class="fixed bottom-0 right-0 left-0 lg:hidden bg-white z-10" x-show="open"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 scale-90"
+        x-transition:enter-end="opacity-100 scale-100"
+        x-transition:leave="transition ease-in duration-300"
+        x-transition:leave-start="opacity-100 scale-100"
+        x-transition:leave-end="opacity-0 scale-90">
             <ul class="flex flex-row gap-2 p-2 justify-around">
                 <li class="flex flex-col justify-center items-center gap-1 font-bold">
                     <ion-icon name="home-outline"></ion-icon>
@@ -161,6 +167,7 @@
         </div>
     </footer>
     <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="../node_modules/preline/dist/preline.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
