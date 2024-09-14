@@ -28,10 +28,12 @@ INPO PNP TRAVERSA TRAVEL TOUR
         • Alamat Penjemputan : ${jemput}
         • Alamat Tujuan : ${tujuan}
         • Tanggal Keberangkatan : ${tgl}
-        • Jam Keberangkatan : ${jam} WIB
+        • Jam Keberangkatan : 
+            ${jam} WIB
         • Jumlah Penumpang : ${jumlah}
         • Nomor Telepon : ${telepon}
-        • Barang yang dibawa : ${barang}
+        • Barang yang dibawa : 
+            ${barang}
 
 STANDAR LAYANAN KAMI DOOR TO DOOR 
 Untuk pemesanan kembali bisa langsung menghubungi nomor 085600009887 
