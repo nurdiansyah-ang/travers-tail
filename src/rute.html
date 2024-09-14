@@ -18,17 +18,17 @@
                 <img src="../public/20240621_160737.png" alt="Logo" width="50">
                 <img src="../public/stack.png" alt="Menu" width="50" @click="open = !open" class="lg:hidden">
                 <div class="hidden lg:block">
-                    <ul class="flex gap-4">
-                        <li>
-                            <a href="index.html">Beranda</a>
-                        </li>
-                        <li>
-                            <a href="rute.html">Rute</a>
-                        </li>
-                        <li>
-                            <a href="armada.html">Armada</a>
-                        </li>
-                    </ul>
+                  <ul class="flex gap-6 mr-6">
+                    <li>
+                        <a href="index.html">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="rute.html">Rute</a>
+                    </li>
+                    <li>
+                        <a href="armada.html">Armada</a>
+                    </li>
+                </ul>
                 </div>
             </div>
         </div>
@@ -68,79 +68,43 @@
     </div>
        <div class="grid grid-cols-12  justify-center items-center">
         <div class="col-span-12 md:col-span-6">
-          <div class="hs-accordion-group ml-3">
-            <div class="hs-accordion active bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-one">
-              <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-expanded="true" aria-controls="hs-basic-bordered-collapse-one">
-                <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
-                <svg class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                </svg>
-                Rute
-              </button>
-              <div id="hs-basic-bordered-collapse-one" class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-bordered-heading-one">
-                <div class="pb-4 px-5">
-                    <ul class="text-gray-800 dark:text-neutral-200">
-                      <li class="list-disc">Cilacap - Jabodetabek</li>
-                      <li class="list-disc">Cilacap - Merak - Lampung</li>
-                      <li class="list-disc">Cilacap - Palembang</li>
-                      <li class="list-disc">Cilacap - Bandung</li>
-                      <li class="list-disc">Cilacap - Tegal - Perkalongan</li>
-                      <li class="list-disc">Cilacap - Purworejo - Semarang</li>
-                      <li class="list-disc">Cilacap - Jogja - Solo</li>
-                      <li class="list-disc">Cilacap - Madura</li>
-                      <li class="list-disc">Cilacap - Surabaya - Malang</li>
-                      <li class="list-disc">Cilacap - Banyuwangi - Denpasar</li>
-                      <li class="list-disc">Carter Drop Off / Pulang Pergi Semua Wilayah Jawa - Bali - Sumatra</li>
-                    </ul>
-                </div>
+          <div class="p-4 overflow-y-auto">
+            <div class="space-y-4 p-5">
+              <div class="">
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Rute</h3>
+                <ul class="text-gray-800 dark:text-neutral-200">
+                  <li class="list-disc">Cilacap - Jabodetabek</li>
+                  <li class="list-disc">Cilacap - Merak - Lampung</li>
+                  <li class="list-disc">Cilacap - Palembang</li>
+                  <li class="list-disc">Cilacap - Bandung</li>
+                  <li class="list-disc">Cilacap - Tegal - Perkalongan</li>
+                  <li class="list-disc">Cilacap - Purworejo - Semarang</li>
+                  <li class="list-disc">Cilacap - Jogja - Solo</li>
+                  <li class="list-disc">Cilacap - Madura</li>
+                  <li class="list-disc">Cilacap - Surabaya - Malang</li>
+                  <li class="list-disc">Cilacap - Banyuwangi - Denpasar</li>
+                  <li class="list-disc">Carter Drop Off / Pulang Pergi Semua Wilayah Jawa - Bali - Sumatra</li>
+                </ul>
               </div>
-            </div>
-          
-            <div class="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-two">
-              <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-expanded="false" aria-controls="hs-basic-bordered-collapse-two">
-                <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
-                <svg class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                </svg>
-                Parawisata
-              </button>
-              <div id="hs-basic-bordered-collapse-two" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-bordered-heading-two">
-                <div class="pb-4 px-5">
-                    <ul class="text-gray-800 dark:text-neutral-200">
-                      <li class="list-disc">Big Bus</li>
-                      <li class="list-disc">Medium Bus</li>
-                      <li class="list-disc">Elf Long / Micro Bus / Hiace</li>
-                      <li class="list-disc">Family Tour 7 Seater</li>
-                    </ul>
-                </div>
+    
+              <div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Parawisata</h3>
+                <ul class="text-gray-800 dark:text-neutral-200">
+                  <li class="list-disc">Big Bus</li>
+                  <li class="list-disc">Medium Bus</li>
+                  <li class="list-disc">Elf Long / Micro Bus / Hiace</li>
+                  <li class="list-disc">Family Tour 7 Seater</li>
+                </ul>
               </div>
-            </div>
-          
-            <div class="hs-accordion bg-white border -mt-px first:rounded-t-lg last:rounded-b-lg dark:bg-neutral-800 dark:border-neutral-700" id="hs-bordered-heading-three">
-              <button class="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400" aria-expanded="false" aria-controls="hs-basic-bordered-collapse-three">
-                <svg class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5v14"></path>
-                </svg>
-                <svg class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M5 12h14"></path>
-                </svg>
-                Ekspedisi & Towing (Jawa , Sumatra , Bali , Lombok , Kalimantan)
-              </button>
-              <div id="hs-basic-bordered-collapse-three" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" role="region" aria-labelledby="hs-bordered-heading-three">
-                <div class="pb-4 px-5">
-                  <ul class="text-gray-800 dark:text-neutral-200">
-                    <li class="list-disc">Pickup / Engkel</li>
-                    <li class="list-disc">Colt Deaser Roda 6</li>
-                    <li class="list-disc">Fuso 6 Roda & 10 Roda</li>
-                  </ul>
-                </div>
+    
+              <div>
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                  Ekspedisi & Towing (Jawa , Sumatra , Bali , Lombok , Kalimantan)
+                </h3>
+                <ul class="text-gray-800 dark:text-neutral-200">
+                  <li class="list-disc">Pickup / Engkel</li>
+                  <li class="list-disc">Colt Deaser Roda 6</li>
+              <li class="list-disc">Fuso 6 Roda & 10 Roda</li>
               </div>
             </div>
           </div>

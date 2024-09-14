@@ -16,6 +16,7 @@
   "dependencies": {
     "@preline/accordion": "^2.4.1",
     "@preline/dropdown": "^2.3.0",
+    "@preline/overlay": "^2.4.1",
     "preline": "^2.3.0"
   }
 }
