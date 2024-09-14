@@ -23,7 +23,6 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
 
     let encodedMessage = encodeURIComponent(
         `
-        <pre>
         INPO PNP TRAVERSA TRAVEL TOUR
         • Nama Lengkap : ${nama}
         • Alamat Penjemputan : ${jemput}
@@ -37,7 +36,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
         STANDAR LAYANAN KAMI DOOR TO DOOR 
         Untuk pemesanan kembali bisa langsung menghubungi nomor 085600009887 
         TERIMAKASIH TELAH MENGGUNAKAN JASA KAMI
-        </pre>
+        
         `
     );
 
