@@ -12,7 +12,6 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
     let tujuan = document.getElementById("alamat2").value;
     let jam = document.getElementById("jam").value;
     let barang = document.getElementById("barang").value;
-
     // let encodedMessage = encodeURIComponent(
     //     "Halo Traversa saya dengan	 \n" +
     //     "Nama 	                : " + nama + "\n" +
@@ -26,14 +25,14 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
         `
         <pre>
         INPO PNP TRAVERSA TRAVEL TOUR
-            &#9992 Nama Lengkap : ${nama}
-            &#9992 Alamat Penjemputan : ${jemput}
-            &#9992 Alamat Tujuan : ${tujuan}
-            &#9992 Tanggal Keberangkatan : ${tgl}
-            &#9992 Jam Keberangkatan : ${jam} WIB
-            &#9992 Jumlah Penumpang : ${jumlah}
-            &#9992 Nomor Telepon : ${telepon}
-            &#9992 Barang yang dibawa : ${barang}
+        • Nama Lengkap : ${nama}
+        • Alamat Penjemputan : ${jemput}
+        • Alamat Tujuan : ${tujuan}
+        • Tanggal Keberangkatan : ${tgl}
+        • Jam Keberangkatan : ${jam} WIB
+        • Jumlah Penumpang : ${jumlah}
+        • Nomor Telepon : ${telepon}
+        • Barang yang dibawa : <pre>${barang}</pre>
 
         STANDAR LAYANAN KAMI DOOR TO DOOR 
         Untuk pemesanan kembali bisa langsung menghubungi nomor 085600009887 
