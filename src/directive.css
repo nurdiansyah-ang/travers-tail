@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base{
+    html{
+        scroll-behavior: smooth;
+    }
     body{
         font-family: 'Inter';
     }
@@ -24,6 +27,13 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .active {
+        color: #DF2935;
+        font-weight: bold;
+    }
+    /* section{
+        min-height: 100vh;
+    } */
     @media only screen and (max-width:768px){
         .hero{
             max-height: 400px;
